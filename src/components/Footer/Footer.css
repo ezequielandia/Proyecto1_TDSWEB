@@ -1,0 +1,45 @@
+.footer {
+  background-color: #222; /* Un color oscuro para el pie de página */
+  color: #bbb; /* Color de texto más claro */
+  padding: 1.5rem 2rem;
+  text-align: center;
+  margin-top: 40px; /* Espacio por encima del footer */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Sombra en la parte superior */
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #ffcc00; /* Color de acento al pasar el mouse */
+}
+
+/* Media query para dispositivos más pequeños */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+}
