@@ -10,6 +10,11 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
+  
+
+  "homepage": "https://ezequielandia.github.io/Proyecto1_TDSWEB",
+
+
   "dependencies": {
     "@tailwindcss/vite": "^4.1.8",
     "react": "^19.1.0",
