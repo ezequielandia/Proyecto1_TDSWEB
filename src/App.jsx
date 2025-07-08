@@ -6,7 +6,7 @@ import AboutPage from './pages/AboutPage';
 
 const App = () => {
   return(
-   <BrowserRouter>
+   <BrowserRouter basename="/Proyecto1_TDSWEB">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
